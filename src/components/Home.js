@@ -4,6 +4,8 @@ import { Grid } from "semantic-ui-react";
 
 import Layout from "./Layout";
 
+import { text } from "./home.css";
+
 const Home = () => {
   return (
     <Layout>
@@ -11,6 +13,7 @@ const Home = () => {
         <Grid.Row>
           <Grid.Column>
             <Link to="/dynamic">Navigate to Dynamic Page</Link>
+            <p className={text}>Hello</p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
