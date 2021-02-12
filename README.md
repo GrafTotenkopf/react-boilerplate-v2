@@ -1,0 +1,1 @@
+React boilerplate with some useful addons. Initial version was based on the variant featured in awesome tutorial by Esau Silva(https://esausilva.com/2018/01/13/learn-webpack-for-react/). I hope to improve it further in the future.
