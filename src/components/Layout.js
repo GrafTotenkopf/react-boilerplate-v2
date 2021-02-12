@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Header, Container } from "semantic-ui-react";
+import { Header, Container, Divider, Icon } from "semantic-ui-react";
 
 import { h1 } from "./layout.css";
 
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <Container>
       <Link to="/">
         <Header as="h1" className={h1}>
-          react-starter-boilerplate
+          react-starter-boilerplate-hmr
         </Header>
       </Link>
       {children}
